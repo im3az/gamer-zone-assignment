@@ -78,7 +78,7 @@
 
 .banner .banner-items {
     /* position: relative; */
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display: flex;
     position: relative;
     width: 901px;
@@ -133,7 +133,7 @@
 
 .banner .banner-btn {
     /* display: flex; */
-    border: 2px solid green;
+    /* border: 2px solid green; */
 }
 
 .banner .banner-btn .sign-in-btn {
