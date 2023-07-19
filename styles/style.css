@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* Nav bar styles */
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1400px;
+    height: 130px;
+    margin: 0 auto;
+
+}
+
+.nav-bar .nav-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 155px;
+
+}
+
+.nav-bar .title-name {
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+    margin-left: 20px;
+}
+
+.nav-bar .nav-links{
+    display: flex;
+    align-items: center;
+}
+
+.nav-bar .nav-links a {
+    text-decoration: none;
+    color: #3C354F;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 32px;
+}
+
+.nav-bar .nav-links .follow-us-on {
+
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    padding: 17px 24px;
+}
