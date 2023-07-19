@@ -283,7 +283,7 @@
     /* align-items: center; */
     /* padding: 120px 282px 120px 249px; */
     /* align-items: center; */
-    
+
 }
 
 .icon-btn .btn-section-one {
@@ -294,7 +294,7 @@
     padding-right: 240px; */
 }
 
-.icon-btn .btn-section-two{
+.icon-btn .btn-section-two {
     width: 1250px;
     display: flex;
     justify-content: space-between;
@@ -317,4 +317,85 @@
     color: #0B0223;
     font-size: 15px;
     font-weight: 600;
+}
+
+/* footer section styles */
+
+.footer {
+    width: 1920px;
+    height: 636px;
+    background: #0B0223;
+    position: relative;
+}
+
+.footer .footer-logo {
+    /* border: 2px solid white; */
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    width: 280px;
+    height: 53px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 126px;
+    left: 833px;
+}
+
+.footer .footer-title {
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    width: 814px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 229px;
+    left: 553px;
+}
+
+.footer .footer-icons {
+    /* border: 2px solid white; */
+    width: 451px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 326px;
+    left: 811px;
+
+
+}
+
+.footer .footer-icons .icons {
+    color: #FFF;
+    /* width: 100px; */
+
+}
+
+.footer .footer-description {
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    width: 708px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 430px;
+    left: 606px;
+}
+
+.footer .footer-ending {
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    width: 450px;
+    display: flex;
+    position: absolute;
+    bottom: 120px;
+    left: 734px;
 }
