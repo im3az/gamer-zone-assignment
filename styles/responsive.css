@@ -11,7 +11,8 @@
         position: relative;
         width: 100%;
     }
-
+    
+    
     .banner .banner-img img {
         position: absolute;
         top: 700px;
@@ -155,5 +156,10 @@
         font-weight: 600;
     }
     
+    /* online games and funny videos section */
+
+    .online-game {
+        margin-top: 380px;
+    }
 
 }
