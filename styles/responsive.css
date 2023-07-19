@@ -22,7 +22,11 @@
         
     }
 
+    /* online games and funny videos section */
     
+    .online-game {
+        margin-top: 750px;
+    }
 }
 
 
@@ -160,6 +164,34 @@
 
     .online-game {
         margin-top: 380px;
+        position: relative;
+        
+    }
+ 
+    .online-game .online-game-title {
+        font-size: 25px;
+    }
+    
+    .online-game .online-game-title .funny-video-text {
+        font-size: 30px;
+    }
+    .online-game .online-game-description {
+        font-size: 10px;
+    }
+    
+    .online-game .online-game-img {
+        flex-direction: column;
+        justify-content: space-between;
+        max-width: 342px;
+        position: absolute;
+        top: 60px;
+        left: -200px;
+    }
+
+    .online-game .online-game-img .image p {
+        font-size: 15px;
+        margin-top: 10px;
+        margin-bottom: 30px;
     }
 
 }
