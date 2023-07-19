@@ -222,6 +222,11 @@
     margin-top: 20px;
 }
 
+.online-game .online-game-img .image img:hover{
+    border: 2px solid #FF41A4;
+    border-radius:16px ;
+}
+
 /* Play instantly section styles */
 
 .play-instantly {
@@ -321,9 +326,13 @@
 
 .icon-btn .btn:hover {
     border: 2px solid #FF42A5;
-     ;
+    color: #FF42A5;
+    cursor: pointer;
 }
 
+.icon-btn .btn p:hover {
+    color: #FF42A5;
+}
 
 
 

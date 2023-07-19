@@ -298,4 +298,13 @@
     } 
 
 
+    .icon-btn {
+        flex-direction: column;
+    }
+     
+    .footer {
+        flex-direction: column;
+        width: 420px;
+        align-items: center;
+    }
 }
