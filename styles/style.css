@@ -67,7 +67,7 @@
 
 .banner {
     /* border: 2px solid green; */
-    width: 1920px;
+    width: 1905px;
     height: 704px;
     display: flex;
     position: relative;
@@ -258,6 +258,7 @@
     border-radius: 16px;
     background-color: #FF41A4;
     height: 410px;
+    
 }
 
 .online-game .online-game-img .image:hover >  #play-btn {
@@ -273,6 +274,7 @@
     align-items: center;
     justify-content: center;
     opacity: 0.7;
+    /* transition: .5s ease; */
 }
 
 
@@ -330,7 +332,7 @@
 /* Icons section style */
 
 .icon-btn {
-    width: 1920px;
+    width: 1905px;
     height: 427px;
     background-color: #FFF9FC;
     margin-top: 90px;
@@ -393,7 +395,7 @@
 /* footer section styles */
 
 .footer {
-    width: 1920px;
+    width: 1905px;
     height: 636px;
     background: #0B0223;
     position: relative;
@@ -437,7 +439,6 @@
     position: absolute;
     top: 326px;
     left: 811px;
-
 
 }
 

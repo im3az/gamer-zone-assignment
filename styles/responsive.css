@@ -1,4 +1,4 @@
-@media screen and (min-width: 426px) and (max-width: 1024px) {
+@media screen and (min-width: 427px) and (max-width: 1024px) {
     .nav-bar {
         flex-wrap: wrap;
         justify-content: center;
@@ -157,7 +157,7 @@
         top: 129px;
         left: 90px;
         color: #534C64;
-        font-size: 9px;
+        font-size: 12px;
         font-style: normal;
         font-weight: 500;
         line-height: normal;
@@ -173,20 +173,20 @@
 
     .banner .banner-btn .sign-in-btn {
         position: absolute;
-        top: 190px;
+        top: 200px;
         left: 90px;
         padding: 9px 18px;
         border-radius: 20px;
-        font-size: 9px;
+        font-size: 10px;
     }
 
     .banner .banner-btn .go-rogue-btn {
         position: absolute;
-        top: 190px;
+        top: 200px;
         left: 170px;
         padding: 9px 18px;
         border-radius: 48px;
-        font-size: 9px;
+        font-size: 10px;
         font-weight: 600;
     }
 
@@ -207,7 +207,7 @@
     }
 
     .online-game .online-game-description {
-        font-size: 10px;
+        font-size: 13px;
     }
 
     .online-game .online-game-img {
@@ -297,15 +297,209 @@
         left: -10px;
     } 
 
+    /* Icon btn section starts here */
+
 
     .icon-btn {
+        /* display: none; */
+        /* border: 2px solid red; */
+        background-color:#FFFFFF ;
         flex-direction: column;
-        width: 420px;
+        width: 425px;
+        height: 190px;
+        margin: 50px auto 50px;
+        /* padding-top: 20px; */
+        position: relative;
+
     }
      
+    .icon-btn .btn {
+        /* border: 2px solid teal; */
+        width: 110px;
+        height: 30px;
+        /* height: 80px; */
+        background-color: #FFF9FC;
+        border-radius: 50px;
+        padding: 5px 2px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    
+    }
+
+    .icon-btn .btn img {
+        width: 20px;
+    }
+
+    .icon-btn .btn #btn-title {
+        font-size: 8px;
+        color: #534C64;
+
+    }
+
+    .icon-btn .btn-section-one {
+        width: 425px;
+    }
+
+    .icon-btn .btn-section-two {
+        width: 425px;
+    }
+    
+    .icon-btn #icon-one {
+        /* border: 2px solid teal; */
+        position: absolute;
+        top: 20px;
+        left: 30px;
+    }
+    
+    .icon-btn #icon-two {
+        /* border: 2px solid teal; */
+        position: absolute;
+        top: 20px;
+        left: 149px;
+    }
+    
+    .icon-btn #icon-three {
+        /* border: 2px solid teal; */
+        position: absolute;
+        top: 20px;
+        right: 30px;
+    }
+    
+    .icon-btn #icon-four {
+        /* border: 2px solid teal; */
+        position: absolute;
+        top: 80px;
+        left: 10px;
+    }
+    
+    .icon-btn #icon-five {
+        /* border: 2px solid teal; */
+        position: absolute;
+        top: 80px;
+        left: 149px;
+    }
+    
+    .icon-btn #icon-six {
+        /* border: 2px solid teal; */
+        position: absolute;
+        top: 80px;
+        right: 10px;
+    }
+    .icon-btn #icon-seven {
+        /* border: 2px solid teal; */
+        position: absolute;
+        top: 140px;
+        left: 30px;
+    }
+    .icon-btn #icon-eight {
+        /* border: 2px solid teal; */
+        position: absolute;
+        top: 140px;
+        left: 149px;
+    }
+    .icon-btn #icon-nine {
+        /* border: 2px solid teal; */
+        position: absolute;
+        top: 140px;
+        right:  30px;
+    }
+
+
+    /* footer section starts */
+
     .footer {
+        /* border: 2px solid red; */
         flex-direction: column;
-        width: 420px;
+        width: 425px;
+        height: 650px;
         align-items: center;
     }
+
+    .footer .footer-logo {
+        /* border: 2px solid white; */
+        justify-content: space-around;
+        align-items: center;
+        /* color: #FFFFFF; */
+        width: 150px;
+        font-size: 20px;
+        /* height: 53px; */
+        top: 50px;
+        left:137.5px;
+    }
+
+    .footer .footer-logo img {
+        width: 40px;
+    }
+
+    .footer .footer-title {
+        /* border: 2px solid red; */
+        text-align: center;
+        font-size: 15px;
+        font-weight: 600;
+        width: 250px;
+        height: 80px ;
+        
+        display: flex;
+        flex-wrap: wrap;
+
+        justify-content: space-around;
+        position: absolute;
+        top: 150px;
+        left: 87.5px;
+    }
+
+    .footer .footer-icons {
+        /* border: 2px solid rgb(128, 5, 5); */
+        width: 250px;
+        height: 150px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        position: absolute;
+        top: 240px;
+        left: 87.5px;
+        padding: 5px 5px;
+    }
+
+    .footer .footer-icons img {
+        /* border: 2px solid white; */
+        width: 30px;
+        margin: 20px;
+    }
+
+    .footer .footer-description {
+        /* border: 2px solid teal; */
+        color: rgba(255, 255, 255, 0.60);
+        text-align: center;
+        font-size: 13px;
+        font-weight: 500;
+        width: 320px;
+        height: 100px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        position: absolute;
+        top: 420px;
+        left: 52.5px;
+        padding: 5px;
+    }
+
+    .footer .footer-ending {
+        /* border: 2px solid teal; */
+        color: rgba(255, 255, 255, 0.60);
+        text-align: center;
+        font-size: 11px;
+        width: 180px;
+        height: 60px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        position: absolute;
+        bottom: 60px;
+        left: 122.5px;
+        padding: 5px;
+    }
+    
 }
