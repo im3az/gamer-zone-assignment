@@ -300,6 +300,7 @@
 
     .icon-btn {
         flex-direction: column;
+        width: 420px;
     }
      
     .footer {
